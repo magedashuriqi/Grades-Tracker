@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+html{
+    height: 100%;
+    width:100%;
+    overflow-x: hidden;
+}
+
+body{
+    background-image: url(/img/school.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+header{
+    background-color: black;
+    height: 70px;
+    padding:0;
+    margin: 0;
+    color: white;
+    position: relative;
+}
+
+header h1{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top:25%;
+    left:38%;
+}
+
+#t-div{
+    background-color:  rgba(151, 67, 151, 0.5);
+    height: 300px;
+    width:500px;
+    position: absolute;
+    left:40%;
+    top:170px;
+}
+
+table{
+    position: absolute;
+    padding: 10px;
+    width:300px;
+    top:50px
+}
+ #first-Row{
+display: inline-block;
+position: absolute;
+border: 2px solid white;
+border-collapse: collapse;
+background-color: black;
+color: white;
+ width: 300px;
+left:30%;
+}
+
+th{
+padding: 10px;
+margin: 20px;
+border-collapse: collapse;
+background-color: black;
+color: white;
+}
+
+form{
+    background-color: rgba(151, 67, 151, 0.5);
+    display: inline-block;
+    align-content: center;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left:5%;
+    top:200%;
+    padding: 60px;
+    font-size: large;
+}
+ input,select,#submit{
+     width:100%
+ }
+
+ td{
+    padding: 10px;
+    margin: 20px;
+    border-collapse: collapse;
+    background-color: rgb(24, 23, 23,0.5);
+    color: white;  
+ }
+ label{
+     text-align: center;
+     color: white;
+ }
+ #submit{
+ background-color: black;
+ color: white;
+ border-radius: 3px;
+ padding: 5px;
+ }
+
+ /* select{
+     width
+ } */
