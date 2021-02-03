@@ -7,6 +7,7 @@ function Students (name,course){
     this.grades=0;
     this.course=course;
     studentTotal.push(this)
+    Students.prototype.studentTotal;
 }
 
 //-----------------
@@ -23,6 +24,8 @@ function addStudent(event){
     document.getElementById('submit')
     button.addEventListener('submit',submitter())
     console.log(event);
+   stuName= event.target.names.value;
+   stuCourse=event.target.courseName.value;
 }
  addStudent();
 
@@ -31,12 +34,12 @@ function submitter(){
     var studentRow=document.createElement('tr')
     mainTable.appendChild(studentRow);
     stuName=document.createElement('td');
-    stuName.textcontent=studentTotal[0];
+    stuName.textcontent=Student.prototype.studentTotal.names
     stuName.appendChild(studentRow);
     var stugrade=document.createElement('td');
     stugrade.textcontent=generateGrade(0,100);
     stugrade.appendChild(studentRow);
     var stuCourse=document.createElement('td');
-    stuCourse.textcontent=
-    studentRow.appendChild(stuCourse)
+    stuCourse.textcontent=Student.prototype.studentTotal.course;
+    studentRow.appendChild(stuCourse);
 }

@@ -84,6 +84,7 @@ form{
  td{
     padding: 10px;
     margin: 20px;
+    border: 1px solid white;
     border-collapse: collapse;
     background-color: rgb(24, 23, 23,0.5);
     color: white;  
